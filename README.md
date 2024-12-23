@@ -4,7 +4,7 @@ Official Golang implementation of Quai's CPU Miner.
 # Building the source
 For prerequisites and detailed build instructions please read the Installation Instructions.
 
-Building quai-cpu-miner requires both a Go (version 1.19 or later) and a C compiler. You can install them using your favourite package manager. Once the dependencies are installed, run
+Building quai-cpu-miner requires both a Go (version 1.19 or later) and a C compiler. You can install them using your favorite package manager. Once the dependencies are installed, run
 
 ## Build via Makefile
 ```shell
@@ -35,7 +35,7 @@ In the file config.yaml.dist you should see something like this:
 
 This file is responsible for storing your settings. The settings saved in this file on starting the manager are what will be applied when it runs.
 
-Location: this stores the Region and Zone values for setting the mining location manually. (Will only be used if Optimize is set to false.) Values must correspond to the current Quai Network Ontology. At mainnet launch, the values for Region will be 1-3 and for Zone 1-3. So, for example, to mine on Region 2 Zone 3 you would save the Location value like this:
+Location: This stores the region and zone values for manually setting the mining location. (Will only be used if Optimize is set to false.) Values must correspond to the current Quai Network Ontology. At mainnet launch, the values for Region will be 1-3 and for Zone 1-3. So, for example, to mine on Region 2 Zone 3, you would save the Location value like this:
 
 Location: [2,3]
 
